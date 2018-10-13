@@ -1,12 +1,22 @@
 <template>
     <div class="top">
-        <h1>Hello Sandeep Kumar</h1>
+        <h1>{{title}}</h1>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'index'
+    name: 'index',
+    data(){
+    return{
+title : 'Hello Sir'
+    }
+    }
 }
 </script>
+
+<style scoped>
+
+</style>
+
 
